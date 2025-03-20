@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    height: 15vh;
+    width: 80vw;
+}
+
+.img {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+}
+
+li {
+    padding: 15px;
+}
+
+.right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    /* align-items: center; */
+    margin: auto;
+    padding: 20px;
+}
+
+.base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.dhead {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    /* font-weight: 40; */
+}
+
+.ue_info {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    font-weight: 350;
+}
+
+.download {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: auto;
+    padding: 15px;
+
+}
+
+.button {
+    padding: 15px;
+    background-color: rgb(3, 181, 181);
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.downloads {
+    /* width: 70vw; */
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    padding: 15px;
+}
+
+.UE_logo {
+    padding: 10px;
+    width: 60px;
+}
+
+.version {
+    display: flex;
+    align-items: baseline;
+}
+
+.d_ue {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.v_info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    /* font-weight: 500; */
+}
+
+.langs {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+    flex-wrap: wrap;
+}
+
+.lang {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    background-color: rgb(234, 234, 234);
+    width: 30%;
+    border-radius: 2px;
+    /* flex-wrap: wrap; */
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.lang_name {
+    font-size: 120%;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.d_button {
+    margin: 25px;
+    padding: 10px;
+    background-color: rgb(57, 171, 70);
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.code {
+    /* width: 200px; */
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70%;
+    font-weight: 200;
+
+    text-align: center;
+    /* text-wrap: wrap; */
+    word-break: break-all;
+}
+
+.extra {
+    /* width: 70vw; */
+    margin: auto;
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+
+}
+
+.news {
+    display: flex;
+    /* width: 70vw; */
+    margin: auto;
+    align-items: center;
+}
+
+.newsletter {
+    width: 50%;
+    margin: 10%;
+    text-align: center;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.join {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.sign {
+    font-size: 100%;
+    font-weight: 200;
+}
+
+.subscription {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    color: blue;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin: 10%;
+    /* padding: 10px; */
+}
+
+.subscribe {
+    margin: 20px;
+    color: rgb(3, 181, 181);
+    font-size: 150%;
+    font-weight: 500;
+}
+
+form {
+    color: black;
+    font-size: 100%;
+    font-weight: 400;
+
+}
+
+form label {
+    color: black;
+    font-size: 100%;
+    font-weight: 400;
+
+}
+
+form input {
+    height: 50px;
+    width: 300px;
+    margin: 15px;
+    background-color: aliceblue;
+    border: 1px solid rgb(188, 188, 188);
+
+}
+
+.subscription button {
+    height: 50px;
+    width: 300px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 181, 181);
+}
+
+.add_info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+    margin: auto;
+    width: 70vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add_info h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 180%;
+    font-weight: 400;
+}
+
+.add_info p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 40px; */
+
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.end {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+.end .more {
+    width: 15vw;
+    margin: 20px;
+}
+
+.end .more h1 {
+    line-height: 50px;
+}
+
+.end .more p {
+    line-height: 20px;
+}
+
+.end .more h1 {
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.end .more p {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.nl form input {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.nl button {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(3, 181, 181);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+footer .elogo {
+    margin: auto;
+    width: 50%;
+}
+
+footer .media {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
